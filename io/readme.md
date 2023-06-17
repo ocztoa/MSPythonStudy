@@ -6,5 +6,5 @@
 
 #입력
 
- A = input()
+ a = input()
 

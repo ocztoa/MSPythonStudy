@@ -43,5 +43,3 @@
 # print("1515", end=' ')
 # print("15")
 # print("13" + "5")
-
-print("Hello World!")

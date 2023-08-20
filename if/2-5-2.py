@@ -6,7 +6,7 @@ print(year,month,day,sep="/")
 hp1="010"  
 hp2="1234"
 hp="5678"
-print(hp1,hp2,hp3,sep="-")
+print(hp1,hp2,hp,sep="-")
 
 price = 1000      
 print(price,"원")

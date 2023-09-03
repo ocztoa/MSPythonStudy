@@ -1,6 +1,11 @@
-set1 = [~,3,2]
-set2 = [[4,5],2,8,1,7]
+questions=["s_hool","compu_er","deco_ation","windo_","hi_tory"]
+answers=["c","t","r","w","s"]
 
-for x in set1:
-    if x in set2:
-        print(x)
+for i in range(len(questions)):
+    q="%s:밑 줄에 들어갈 알파벳은?"%questions[i]
+    guess=input(q)
+
+    if guess==answers[i] :
+        print("정답!")
+    else:
+        print("틀렸어요!")

@@ -32,4 +32,4 @@ while True:
 
 print("게임이 종료되었습니다!")
 end=time.localtime(time.time())
-print("게임 시간 시작:",time.strftime("%l:%M:%S %p",end))
+print("게임 시간 시작:",time.strftime("%I:%M:%S %p",end))

@@ -703,6 +703,7 @@ print(square_sum(N))
       if s[i]!=s[len(s)-i-1]:         #좌측과 우측 인덱스 다른지 비교
 
 <<<<<<< HEAD
+
 ### 🎉 9-1-1.py
 
 > 모듈 생성하고 불러오기
@@ -755,95 +756,155 @@ math.log10() 밑을 10으로 한 로그 값을 반환
 math.pow() 거듭제곱 값을 반환
 math.sqrt() 제곱근 값을 반환
 math.pi 원주율 3.1315...
-=======
-   ### 🎉 9-1-1.py
->모듈 생성하고 불러오기
-   impport ~ 구문:9.1.2절
-   import ~ as ~ 구문:9.1.3절
-   from ~ import ~ 구문:9.1.4절
 
-   ### 🎉 9-1-2.py
->import ~ 구문
-   import 모듈명   #모듈명.py 파일에 정의되어 있는 변수, 함수 등을 불러옴
-   ...
-   모듈명.모듈함수명()
-   ...
+### 🎉 9-1-1.py
 
-   ### 🎉 9-1-3.py
->import ~ as ~ 구문
-   import 모듈명 as 별칭
-   ...
-   별칭.모듈함수명()
-   ...
+> 모듈 생성하고 불러오기
+> impport ~ 구문:9.1.2절
+> import ~ as ~ 구문:9.1.3절
+> from ~ import ~ 구문:9.1.4절
 
-   ### 🎉 9-1-4.py
->from ~ import ~ 구문
-   from 모듈명 import 모듈함수명,모듈함수명,...   #모듈 내에 있는 모듈 함수를 직접 불러올 수 있음
-   ...
-   모듈함수명()
-   ...
+### 🎉 9-1-2.py
 
-   ### 🎉 9-2.py
->math 모듈
-   math.sin() sin() 값을 반환함
-   math.cos() cos() 값을 반환함
-   math.tan() tan() 값을 반환함
-   math.ceil() 실수 값을 무조건 올림한 정수 값을 반환
-   math.floor() 실수 값을 무조건 내림한 정수 값을 반환
-   math.fsum() 리스트, 튜플 등의 합계를 구함
-   math.log() 자연 로그 값을 반환
-   math.log10() 밑을 10으로 한 로그 값을 반환
-   math.pow() 거듭제곱 값을 반환
-   math.sprt() 제곱근(Square Root) 값을 반환
-   math.pi 원주율 3.1415...
+> import ~ 구문
+> import 모듈명 #모듈명.py 파일에 정의되어 있는 변수, 함수 등을 불러옴
+> ...
+> 모듈명.모듈함수명()
+> ...
 
-   ### 🎉 9-3.py
->time 모듈
-   time.time() UTC 표준 시를 기준으로 한 현재 시간을 구함
-   time.gmitime() UDT 초 단위의 시간을 struct_time 구조로 변환함
-   time.localtime() 현지 시간(local Time)을 구함
-   time.ctime() UTC 초 단위의 시간을 문자열로 변환함
-   time.strtime() 일시를 포맷 기호를 이용하여 특정 포맷으로 변환함
-   time.sleep() 일정 시간만큼 지연시킴
+### 🎉 9-1-3.py
 
-   ### 🎉 9-3-1.py
->현재 시간 구하기
-   time.time() 함수
+> import ~ as ~ 구문
+> import 모듈명 as 별칭
+> ...
+> 별칭.모듈함수명()
+> ...
 
-   ### 🎉 9-3-2.py
->타임스탬프를 문자열로 변환하기
-   타임스탬프:시간을 계산하는 것
-   time.ctime() 함수 이용
+### 🎉 9-1-4.py
 
-   ### 🎉 9-3-3.py
->시간을 특정 포맷으로 변환하기
-   time.strftime() 함수를 이용하여 현재 시간을 특정 포맷의 문자열로 변환
-   time.time() 함수 즉 현재의 타임 스탬프에 대해 time.localtime() 으로 현지 시간 구해 tm에 저장
-   time.strftime() 함수를 이용하여 실행 결과에서와 같은 포맷으로 시간을 화면에 출력
+> from ~ import ~ 구문
+> from 모듈명 import 모듈함수명,모듈함수명,... #모듈 내에 있는 모듈 함수를 직접 불러올 수 있음
+> ...
+> 모듈함수명()
+> ...
 
-   %Y - 네자리 년도 - ex:2020,2021,2023
-   %y - 두자리 년도 - ex:00,31,99
-   %m - 월 - ex:04,11,12
-   %d - 일 - ex:01,06,31
-   %A - 요일 - Sunday,Monday,Saturday
-   %a - 간략 요일 - ex:Sun,Mon,Sat
-   %H - 시(24시) - ex:01,02,23
-   %l - 시(12시) - ex:01,02,12
-   %p - AM 또는 PM - ex:AM,PM
-   %M - 분 - ex:01,02,59
+### 🎉 9-2.py
 
-   ### 🎉 9-3-4.py
->시간 지연시키기
-   time.sleep(시간)
+> math 모듈
+> math.sin() sin() 값을 반환함
+> math.cos() cos() 값을 반환함
+> math.tan() tan() 값을 반환함
+> math.ceil() 실수 값을 무조건 올림한 정수 값을 반환
+> math.floor() 실수 값을 무조건 내림한 정수 값을 반환
+> math.fsum() 리스트, 튜플 등의 합계를 구함
+> math.log() 자연 로그 값을 반환
+> math.log10() 밑을 10으로 한 로그 값을 반환
+> math.pow() 거듭제곱 값을 반환
+> math.sprt() 제곱근(Square Root) 값을 반환
+> math.pi 원주율 3.1415...
 
-   ### 🎉 9-4.py
->datetime 모듈
-   datetime.timedelta() 일시에 대한 산술 연산이 가능하게 포맷 변환
-   datetime.date.today() 오늘의 날짜 구함
-   datetime.datetime.now() 현재의 날짜와 시간 구함
-   datetime.datetime,strftime() 날짜와 시간을 포맷 기호로 특정 포맷으로 변환
+### 🎉 9-3.py
 
-   ### 🎉 9-4-1.py
->날짜와 시간에 대한 산술 연산
-   datetime.timedelta()
->>>>>>> 2d3f67779329c6204ab67e04df1ec2fcee79e66d
+> time 모듈
+> time.time() UTC 표준 시를 기준으로 한 현재 시간을 구함
+> time.gmitime() UDT 초 단위의 시간을 struct_time 구조로 변환함
+> time.localtime() 현지 시간(local Time)을 구함
+> time.ctime() UTC 초 단위의 시간을 문자열로 변환함
+> time.strtime() 일시를 포맷 기호를 이용하여 특정 포맷으로 변환함
+> time.sleep() 일정 시간만큼 지연시킴
+
+### 🎉 9-3-1.py
+
+> 현재 시간 구하기
+> time.time() 함수
+
+### 🎉 9-3-2.py
+
+> 타임스탬프를 문자열로 변환하기
+> 타임스탬프:시간을 계산하는 것
+> time.ctime() 함수 이용
+
+### 🎉 9-3-3.py
+
+> 시간을 특정 포맷으로 변환하기
+> time.strftime() 함수를 이용하여 현재 시간을 특정 포맷의 문자열로 변환
+> time.time() 함수 즉 현재의 타임 스탬프에 대해 time.localtime() 으로 현지 시간 구해 tm에 저장
+> time.strftime() 함수를 이용하여 실행 결과에서와 같은 포맷으로 시간을 화면에 출력
+
+%Y - 네자리 년도 - ex:2020,2021,2023
+%y - 두자리 년도 - ex:00,31,99
+%m - 월 - ex:04,11,12
+%d - 일 - ex:01,06,31
+%A - 요일 - Sunday,Monday,Saturday
+%a - 간략 요일 - ex:Sun,Mon,Sat
+%H - 시(24시) - ex:01,02,23
+%l - 시(12시) - ex:01,02,12
+%p - AM 또는 PM - ex:AM,PM
+%M - 분 - ex:01,02,59
+
+### 🎉 9-3-4.py
+
+> 시간 지연시키기
+> time.sleep(시간)
+
+### 🎉 9-4.py
+
+> datetime 모듈
+> datetime.timedelta() 일시에 대한 산술 연산이 가능하게 포맷 변환
+> datetime.date.today() 오늘의 날짜 구함
+> datetime.datetime.now() 현재의 날짜와 시간 구함
+> datetime.datetime,strftime() 날짜와 시간을 포맷 기호로 특정 포맷으로 변환
+
+### 🎉 9-4-1.py
+
+> 날짜와 시간에 대한 산술 연산
+> datetime.timedelta()
+
+### 🎉 9-4-2.py
+
+> 오늘 날짜 구하기
+> date.today()
+> datetime.date.today()
+
+### 🎉 9-4-3.py
+
+> 일주일 후의 날짜 구하기
+> datetime.timedelta()
+> datetime.date.today()
+
+### 🎉 9-4-4.py
+
+> 현재의 날짜와 시간 구하기
+> datetime 모듈 이용
+> today=datetime.now() #현재 날짜와 시간
+
+### 🎉 9-5.py
+
+> random 모듈
+> random.random() 0에서 1 사이의 임의의 실수를 변환함
+> random.uniform() 주어진 두 수 사이의 임의의 실수를 반환함
+> random.randint() 주어진 영역 사이의 임의의 정수를 반환함
+> random.choice() 리스트,튜플,문자열 등에서 임의로 선택한 요소를 반환함
+> random.shuffle() 리스트를 임의의 순서로 섞음
+
+### 🎉 9-6-1.py
+
+> 게임 시작 시간 표시하기
+> time.time() :현재 시간에 대한 타임스탬프를 구함
+> time.localtimw() :현재 시간의 타임스탬프에서 현지 시간(local time)을 구해 current_time에 저장
+> time.strftime() :실행 결과의 포맷으로 현재의 시간
+
+### 🎉 9-6-2.py
+
+> 주사위 던지기
+> random.randint(a,b) :주사위 눈에 해당되는 a에서 b까지의 숫자 중 하나 발생
+> time.sleep(n) :n초간 멈추게 함
+
+### 🎉 9-6-3.py
+
+> 승부 판정하기
+> id~else~elif 구문 이용-> 승부결과 화면에 표시
+
+### 🎉 9-6-4.py
+
+> 프로그램 전체 소스
